@@ -1,0 +1,91 @@
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+}
+.px-4 {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+
+.gradient-background {
+  background-image: url('../bg1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font: optional;
+  color: white;
+  font-family: 'Poppins';font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font: optional;
+  color: navy;
+  font-family: 'Poppins';font-size: 36px;
+  font-weight: bold;
+}
+h3 {
+  font: optional;
+  color: navy;
+  font-family: 'Poppins';font-size: 32px;
+  line-height: 2;
+  font-weight: bold;
+
+}
+h5 {
+  font: optional;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins';font-size: 16px;
+  text-align:center;
+  line-height: 2;
+  font-weight: normal;
+}
+h4 {
+  font: optional;
+  color: navy; 
+  font-family: 'Poppins';
+  font-size: 26px;
+  line-height: 2;
+  font-weight: bold;
+
+}
+
+p {
+  color: navy; 
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: normal;
+
+}
+
+a, button {
+  color: navy; 
+  font-family: 'Poppins';font-size: 14px;
+  font-weight: normal;
+}
